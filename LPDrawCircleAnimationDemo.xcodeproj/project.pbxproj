@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE6723471BFEC26B007157D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6723461BFEC26B007157D8 /* main.m */; };
+		EE67234A1BFEC26B007157D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6723491BFEC26B007157D8 /* AppDelegate.m */; };
+		EE67234D1BFEC26B007157D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67234C1BFEC26B007157D8 /* ViewController.m */; };
+		EE6723501BFEC26B007157D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE67234E1BFEC26B007157D8 /* Main.storyboard */; };
+		EE6723521BFEC26B007157D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6723511BFEC26B007157D8 /* Assets.xcassets */; };
+		EE6723551BFEC26B007157D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6723531BFEC26B007157D8 /* LaunchScreen.storyboard */; };
+		EE6723601BFEC26B007157D8 /* LPDrawCircleAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67235F1BFEC26B007157D8 /* LPDrawCircleAnimationDemoTests.m */; };
+		EE67236B1BFEC26C007157D8 /* LPDrawCircleAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67236A1BFEC26C007157D8 /* LPDrawCircleAnimationDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE67235C1BFEC26B007157D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE67233A1BFEC26B007157D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6723411BFEC26B007157D8;
+			remoteInfo = LPDrawCircleAnimationDemo;
+		};
+		EE6723671BFEC26C007157D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE67233A1BFEC26B007157D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6723411BFEC26B007157D8;
+			remoteInfo = LPDrawCircleAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE6723421BFEC26B007157D8 /* LPDrawCircleAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPDrawCircleAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6723461BFEC26B007157D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE6723481BFEC26B007157D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE6723491BFEC26B007157D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE67234B1BFEC26B007157D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE67234C1BFEC26B007157D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE67234F1BFEC26B007157D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE6723511BFEC26B007157D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6723541BFEC26B007157D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE6723561BFEC26B007157D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE67235B1BFEC26B007157D8 /* LPDrawCircleAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPDrawCircleAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE67235F1BFEC26B007157D8 /* LPDrawCircleAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPDrawCircleAnimationDemoTests.m; sourceTree = "<group>"; };
+		EE6723611BFEC26B007157D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6723661BFEC26C007157D8 /* LPDrawCircleAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPDrawCircleAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE67236A1BFEC26C007157D8 /* LPDrawCircleAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPDrawCircleAnimationDemoUITests.m; sourceTree = "<group>"; };
+		EE67236C1BFEC26C007157D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE67233F1BFEC26B007157D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6723581BFEC26B007157D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6723631BFEC26C007157D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE6723391BFEC26B007157D8 = {
+			isa = PBXGroup;
+			children = (
+				EE6723441BFEC26B007157D8 /* LPDrawCircleAnimationDemo */,
+				EE67235E1BFEC26B007157D8 /* LPDrawCircleAnimationDemoTests */,
+				EE6723691BFEC26C007157D8 /* LPDrawCircleAnimationDemoUITests */,
+				EE6723431BFEC26B007157D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6723431BFEC26B007157D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6723421BFEC26B007157D8 /* LPDrawCircleAnimationDemo.app */,
+				EE67235B1BFEC26B007157D8 /* LPDrawCircleAnimationDemoTests.xctest */,
+				EE6723661BFEC26C007157D8 /* LPDrawCircleAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6723441BFEC26B007157D8 /* LPDrawCircleAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE6723481BFEC26B007157D8 /* AppDelegate.h */,
+				EE6723491BFEC26B007157D8 /* AppDelegate.m */,
+				EE67234B1BFEC26B007157D8 /* ViewController.h */,
+				EE67234C1BFEC26B007157D8 /* ViewController.m */,
+				EE67234E1BFEC26B007157D8 /* Main.storyboard */,
+				EE6723511BFEC26B007157D8 /* Assets.xcassets */,
+				EE6723531BFEC26B007157D8 /* LaunchScreen.storyboard */,
+				EE6723561BFEC26B007157D8 /* Info.plist */,
+				EE6723451BFEC26B007157D8 /* Supporting Files */,
+			);
+			path = LPDrawCircleAnimationDemo;
+			sourceTree = "<group>";
+		};
+		EE6723451BFEC26B007157D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE6723461BFEC26B007157D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE67235E1BFEC26B007157D8 /* LPDrawCircleAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE67235F1BFEC26B007157D8 /* LPDrawCircleAnimationDemoTests.m */,
+				EE6723611BFEC26B007157D8 /* Info.plist */,
+			);
+			path = LPDrawCircleAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		EE6723691BFEC26C007157D8 /* LPDrawCircleAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE67236A1BFEC26C007157D8 /* LPDrawCircleAnimationDemoUITests.m */,
+				EE67236C1BFEC26C007157D8 /* Info.plist */,
+			);
+			path = LPDrawCircleAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6723411BFEC26B007157D8 /* LPDrawCircleAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE67236F1BFEC26C007157D8 /* Build configuration list for PBXNativeTarget "LPDrawCircleAnimationDemo" */;
+			buildPhases = (
+				EE67233E1BFEC26B007157D8 /* Sources */,
+				EE67233F1BFEC26B007157D8 /* Frameworks */,
+				EE6723401BFEC26B007157D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPDrawCircleAnimationDemo;
+			productName = LPDrawCircleAnimationDemo;
+			productReference = EE6723421BFEC26B007157D8 /* LPDrawCircleAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE67235A1BFEC26B007157D8 /* LPDrawCircleAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6723721BFEC26C007157D8 /* Build configuration list for PBXNativeTarget "LPDrawCircleAnimationDemoTests" */;
+			buildPhases = (
+				EE6723571BFEC26B007157D8 /* Sources */,
+				EE6723581BFEC26B007157D8 /* Frameworks */,
+				EE6723591BFEC26B007157D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE67235D1BFEC26B007157D8 /* PBXTargetDependency */,
+			);
+			name = LPDrawCircleAnimationDemoTests;
+			productName = LPDrawCircleAnimationDemoTests;
+			productReference = EE67235B1BFEC26B007157D8 /* LPDrawCircleAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE6723651BFEC26C007157D8 /* LPDrawCircleAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6723751BFEC26C007157D8 /* Build configuration list for PBXNativeTarget "LPDrawCircleAnimationDemoUITests" */;
+			buildPhases = (
+				EE6723621BFEC26C007157D8 /* Sources */,
+				EE6723631BFEC26C007157D8 /* Frameworks */,
+				EE6723641BFEC26C007157D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6723681BFEC26C007157D8 /* PBXTargetDependency */,
+			);
+			name = LPDrawCircleAnimationDemoUITests;
+			productName = LPDrawCircleAnimationDemoUITests;
+			productReference = EE6723661BFEC26C007157D8 /* LPDrawCircleAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE67233A1BFEC26B007157D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = QFWang;
+				TargetAttributes = {
+					EE6723411BFEC26B007157D8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EE67235A1BFEC26B007157D8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EE6723411BFEC26B007157D8;
+					};
+					EE6723651BFEC26C007157D8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EE6723411BFEC26B007157D8;
+					};
+				};
+			};
+			buildConfigurationList = EE67233D1BFEC26B007157D8 /* Build configuration list for PBXProject "LPDrawCircleAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE6723391BFEC26B007157D8;
+			productRefGroup = EE6723431BFEC26B007157D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6723411BFEC26B007157D8 /* LPDrawCircleAnimationDemo */,
+				EE67235A1BFEC26B007157D8 /* LPDrawCircleAnimationDemoTests */,
+				EE6723651BFEC26C007157D8 /* LPDrawCircleAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6723401BFEC26B007157D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6723551BFEC26B007157D8 /* LaunchScreen.storyboard in Resources */,
+				EE6723521BFEC26B007157D8 /* Assets.xcassets in Resources */,
+				EE6723501BFEC26B007157D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6723591BFEC26B007157D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6723641BFEC26C007157D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE67233E1BFEC26B007157D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE67234D1BFEC26B007157D8 /* ViewController.m in Sources */,
+				EE67234A1BFEC26B007157D8 /* AppDelegate.m in Sources */,
+				EE6723471BFEC26B007157D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6723571BFEC26B007157D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6723601BFEC26B007157D8 /* LPDrawCircleAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6723621BFEC26C007157D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE67236B1BFEC26C007157D8 /* LPDrawCircleAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE67235D1BFEC26B007157D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6723411BFEC26B007157D8 /* LPDrawCircleAnimationDemo */;
+			targetProxy = EE67235C1BFEC26B007157D8 /* PBXContainerItemProxy */;
+		};
+		EE6723681BFEC26C007157D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6723411BFEC26B007157D8 /* LPDrawCircleAnimationDemo */;
+			targetProxy = EE6723671BFEC26C007157D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE67234E1BFEC26B007157D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE67234F1BFEC26B007157D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE6723531BFEC26B007157D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6723541BFEC26B007157D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE67236D1BFEC26C007157D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE67236E1BFEC26C007157D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6723701BFEC26C007157D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPDrawCircleAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPDrawCircleAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE6723711BFEC26C007157D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPDrawCircleAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPDrawCircleAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE6723731BFEC26C007157D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LPDrawCircleAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPDrawCircleAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPDrawCircleAnimationDemo.app/LPDrawCircleAnimationDemo";
+			};
+			name = Debug;
+		};
+		EE6723741BFEC26C007157D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LPDrawCircleAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPDrawCircleAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPDrawCircleAnimationDemo.app/LPDrawCircleAnimationDemo";
+			};
+			name = Release;
+		};
+		EE6723761BFEC26C007157D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LPDrawCircleAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPDrawCircleAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LPDrawCircleAnimationDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE6723771BFEC26C007157D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LPDrawCircleAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPDrawCircleAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LPDrawCircleAnimationDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE67233D1BFEC26B007157D8 /* Build configuration list for PBXProject "LPDrawCircleAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE67236D1BFEC26C007157D8 /* Debug */,
+				EE67236E1BFEC26C007157D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE67236F1BFEC26C007157D8 /* Build configuration list for PBXNativeTarget "LPDrawCircleAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6723701BFEC26C007157D8 /* Debug */,
+				EE6723711BFEC26C007157D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE6723721BFEC26C007157D8 /* Build configuration list for PBXNativeTarget "LPDrawCircleAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6723731BFEC26C007157D8 /* Debug */,
+				EE6723741BFEC26C007157D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE6723751BFEC26C007157D8 /* Build configuration list for PBXNativeTarget "LPDrawCircleAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6723761BFEC26C007157D8 /* Debug */,
+				EE6723771BFEC26C007157D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE67233A1BFEC26B007157D8 /* Project object */;
+}
